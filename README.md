@@ -43,7 +43,7 @@ An open source trackball.
 |1|Seeed Studio XIAO BLE (nRF52840)|
 |2|PAW3222LU-TJDU Sensor with PNSR-015-RB3 Lens [Breakout Board](https://github.com/badjeff/paw3222-pcb)|
 |1|40mm trackball. or, pom ball from ebay/aliexpress|
-|3|APLS SKHUAKE010 6.2x6.3x2.5mm Silent Micro Switch|
+|3|6.4mm(W) Micro Switch. APLS SKHUAKE010 2.5mm(H), or APLS SKRAAWE010 3.5mm(H)|
 |3|1N4148W T4 SOD-123 Diode|
 |1|MSK-1153 6 Pins Power Switch|
 |1|3x4x2mm Tact Switch Turtle Switch|
@@ -59,6 +59,7 @@ An open source trackball.
 - MUST have a funcation brain. Requiring to puzzling to assemble all parts together.
 - NEED very good eyesight, and soldering skill (and tools)
 - Weight of the trackball and actuation force of switches is corelated, it'd be adjusted in CAD file by moving its pivot position. My trackball used to design is ~44g. The micro switched is 0.98N. Simple physics.
+- Choose the `base-{switch-height}mm.stl` file respectively for your switch option.
 - Axis reading from dual sensor is mixed to report 3 degree of freedom in firmware. Some coefficients is cooked for twist-to-scroll in `mochibella-zmk-config`, not hardcoded in ZMK module.
 - The firmware is cooked for low-latency HID trnasportation. e.g. USB, or dongle mode with [zmk-feature-split-esb](https://github.com/badjeff/zmk-feature-split-esb).
 
