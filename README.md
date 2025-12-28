@@ -58,7 +58,7 @@ An open source trackball.
 - NOT for beginner. Requiring experience of building at least one wireless keyboard on [ZMK](https://github.com/zmkfirmware/zmk).
 - MUST have a funcation brain. Requiring to puzzling to assemble all parts together.
 - NEED very good eyesight, and soldering skill (and tools)
-- Weight of the trackball and actuation force of switches is corelated, it'd be adjusted in CAD file by moving its pivot position. My trackball used to design is ~44g. The micro switched is 0.98N. Simple physics.
+- Weight of the trackball and actuation force of switches is corelated, it'd be adjusted in CAD file by moving its pivot position. My trackball used is ~44g and the micro switch is SKRAAWE010 0.64N. Simple physics.
 - Choose the `base-{switch-height}mm.stl` file respectively for your switch option.
 - Axis reading from dual sensor is mixed to report 3 degree of freedom in firmware. Some coefficients is cooked for twist-to-scroll in `mochibella-zmk-config`, not hardcoded in ZMK module.
 - The firmware is cooked for low-latency HID trnasportation. e.g. USB, or dongle mode with [zmk-feature-split-esb](https://github.com/badjeff/zmk-feature-split-esb).
