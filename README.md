@@ -39,6 +39,13 @@ An open source trackball.
 <img src="./imgs/w4.png" width="233">
 </p>
 
+### Grip
+
+Below diagram is showing the ideal finger grip points to use this trackball (40mm version). The pinky should rest on the desk and touching the side of the case.
+
+<img src="./imgs/finger-pos.webp" width="233">
+
+
 ### BOM
 |Unit|Item|
 |-|-|
