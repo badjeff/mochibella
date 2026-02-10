@@ -52,7 +52,7 @@ Below diagram is showing the ideal finger grip points to use this trackball (40m
 |1|Seeed Studio XIAO BLE (nRF52840)|
 |2|PAW3222LU-TJDU Sensor with PNSR-015-RB3 Lens [Breakout Board](https://github.com/badjeff/paw3222-pcb)|
 |1|40mm/34mm trackball. or, pom ball from ebay/aliexpress|
-|3|6.4mm(W) Micro Switch. APLS SKHUAKE010 2.5mm(H), or APLS SKRAAWE010 3.5mm(H)|
+|3|6.4mm(W) Micro Switch. Huano Silent Grey 2.5mm(H), or APLS SKHUAKE010 2.5mm(H), or APLS SKRAAWE010 3.5mm(H)|
 |3|1N4148W T4 SOD-123 Diode|
 |1|MSK-1153 6 Pins Power Switch|
 |1|3x4x2mm Tact Switch Turtle Switch|
